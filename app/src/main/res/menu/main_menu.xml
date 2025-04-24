@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addPost"
+        android:title="เพิ่มโพสต์"
+        android:icon="@drawable/add_post" />
+    <item
+        android:id="@+id/addDonate"
+        android:title="บริจาค"
+        android:icon="@drawable/add_donate" />
+    <item
+        android:id="@+id/addInfo"
+        android:title="เกี่ยวกับเรา"
+        android:icon="@drawable/add_info"/>
+
+</menu>
