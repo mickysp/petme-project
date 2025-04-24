@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".AboutmeActivity">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="เกี่่ยวกับเรา"
+        android:textSize="28sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/head"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/logoname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PET ME"
+        android:textSize="20sp"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:id="@+id/abm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ปัจจุบันมีข่าวเกี่ยวกับสัตว์ถูกทอดทิ้งมากมาย โดยเฉพาะหมาและแมว ไม่ว่าจะในรูปแบบการถูกทอดทิ้งจากเจ้าของ หรือในรูปแบบของสัตว์จรจัดที่ไม่มีเจ้าของ ต่อมาทำให้เกิดปัญหาสัตว์จรจัดล้นเมือง แต่ในขณะเดียวกันก็มีไม่น้อยที่สัตว์เหล่านั้นได้รับการช่วยเหลือและได้เจ้าของใหม่ อีกทั้งยังมีกลุ่มคนทำคอนเทนต์เกี่ยวกับการช่วยเหลือสัตว์จรจัดหรือสัตว์ที่บาดเจ็บและหาเจ้าของให้ เช่น 'The Dodo' สื่อจากอเมริกา และ 'Gluta Story' ช่องยูทูบโดยคนไทย ผู้คนจึงเริ่มให้ความสนใจการรับเลี้ยงสัตว์ที่ถูกทอดทิ้งมากขึ้น และเริ่มมีการถกเถียงเกี่ยวกับการรับเลี้ยงสัตว์ที่มีการต่อเติมสายพันธุ์โดยไม่คำนึงถึงสุขภาพของสัตว์เหล่านั้น ตามด้วยกระแสเชิญชวนให้รับเลี้ยงสัตว์ที่ต้องการความช่วยเหลือมากกว่าสัตว์ที่ขายตามฟาร์ม เพื่อต่อต้านการดัดแปลงพันธุกรรมที่ผิดธรรมชาติ จากกระแสดังกล่าวผู้จัดทำจึงอยากพัฒนา Application ที่เป็นสื่อกลางสำหรับส่งต่อ-รับเลี้ยงสัตว์เหล่านั้น"
+        android:layout_below="@id/logoname"
+        android:layout_marginTop="20dp"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        />
+
+
+    =
+    <TextView
+        android:id="@+id/ps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="ติดต่อ"
+        android:layout_below="@id/abm"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="โทร 09-1177332299 (แอดไหม)"
+        android:layout_below="@id/ps"
+        android:textSize="8sp"
+        />
+
+</RelativeLayout>
