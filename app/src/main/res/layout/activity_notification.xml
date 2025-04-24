@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pet.NotificationActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/nonoti"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/no_noti"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-30dp"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ยังไม่พบการแจ้งเตือนในขณะนี้"
+        android:layout_marginBottom="50dp"
+        android:textSize="20sp"
+        android:layout_above="@id/nonoti"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <ImageButton
+                android:id="@+id/home"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:background="@color/petme"
+                android:padding="8dp"
+                android:src="@drawable/icon_home"
+                android:textColor="#BA750E"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/notification"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:background="@color/petme"
+                android:padding="8dp"
+                android:src="@drawable/icon_noti"
+                android:textColor="#BA750E"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/profile"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:background="@color/petme"
+                android:padding="8dp"
+                android:src="@drawable/icon_profile"
+                android:textColor="#BA750E"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
